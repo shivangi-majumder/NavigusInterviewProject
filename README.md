@@ -26,8 +26,8 @@ The app begins from employeeRegister.jsp
 
 ## JAR Files
 
-ojdbc6.jar
-log4j - 1.2
+ojdbc6.jar,
+log4j - 1.2,
 junit - 4.10
 
 
