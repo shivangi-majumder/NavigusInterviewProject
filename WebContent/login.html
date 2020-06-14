@@ -1,0 +1,76 @@
+<!-- <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>*/ -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Login</title>
+<style>
+.buttonL {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 0px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+}
+
+.buttonL:hover {
+	background-color: rgb(92, 141, 61);
+	color: white;
+}
+</style>
+</head>
+<body>
+	<script type="text/javascript">
+		String
+		error_msg = "";
+		Object
+		error = request.getAttribute("error");
+		if (error != null)
+			error_msg = error.toString();
+	</script>
+	<div id="Container">
+		<div id="Header">
+			<center><h1>The New Calendar System</h1></center>
+		</div>
+		<div id="Content">
+			<div id="Login">
+				<form action="homePage">
+					<table align="center">
+						<tr>
+							<td align="left">Username:</td>
+							<td rowspan="7" valign="middle"></td>
+						</tr>
+						<tr>
+							<td><input name="username" type="text" size="30"></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td align="left">Password:</td>
+						</tr>
+						<tr>
+							<td><input name="password" type="password" size="30"></td>
+						</tr>
+						<tr>
+							<td align="left"><input type="submit" value="LOGIN"></td>
+						</tr>
+					</table>
+				</form>
+				<hr>
+			</div>
+		</div>
+		<div id="Footer">Copyright &copy; 2020 Shivangi Majumder Project for Navigus
+		</div>
+	</div>
+</body>
+</html>
